@@ -21,21 +21,21 @@ root.render(
     <>
       <HashRouter>
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/suivi_psychologique" element={<SuiviPsychologique />} />
-          <Route path="/psychoeducation" element={<Psychoeducation />} />
-          <Route path="/guidance_parentale" element={<GuidanceParentale />} />
-          <Route path="/habilite_sociale" element={<HabiliteSociale />} />
-          <Route path="/bilan" element={<Bilan />} />
-          <Route path="/remediation_cognitive" element={<RemediationCognitive />} />
-          <Route path="/experiences" element={<Experiences />} />
-          <Route path="/parcours" element={<Parcours />} />
-          <Route path="/a_propos" element={<About />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/suivi_psychologique" element={<SuiviPsychologique />} />
+            <Route path="/psychoeducation" element={<Psychoeducation />} />
+            <Route path="/guidance_parentale" element={<GuidanceParentale />} />
+            <Route path="/habilite_sociale" element={<HabiliteSociale />} />
+            <Route path="/bilan" element={<Bilan />} />
+            <Route path="/remediation_cognitive" element={<RemediationCognitive />} />
+            <Route path="/experiences" element={<Experiences />} />
+            <Route path="/parcours" element={<Parcours />} />
+            <Route path="/a_propos" element={<About />} />
+          </Routes>
+        <Footer />
       </HashRouter>
-      <Footer />
     </>
   </React.StrictMode>
 );
