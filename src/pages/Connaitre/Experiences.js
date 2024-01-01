@@ -2,7 +2,7 @@ const Experiences = () => {
     return (
         <div className="flex items-center bg-nude-50 flex-1 flex-col">
             <div className="flex flex-col items-center">
-                <img src="/assets/illustrations/experiences.png" className="flex w-screen flex-row justify-center h-96 object-cover"/>
+                <img src="/assets/illustrations/experiences.png" alt="experiences" className="flex w-screen flex-row justify-center h-96 object-cover"/>
                 <div className="bg-nude-50 h-10 -mt-5 flex items-center px-2 sm:px-10">
                     <h1 className="text-brown-50 text-2xl">Mes expériences professionnelles</h1>
                 </div>
