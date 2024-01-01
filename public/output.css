@@ -1104,6 +1104,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1350,6 +1355,18 @@ video {
     margin-top: 2.25rem;
   }
 
+  .sm\:mr-16 {
+    margin-right: 4rem;
+  }
+
+  .sm\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .sm\:ml-56 {
+    margin-left: 14rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1389,6 +1406,11 @@ video {
 
   .sm\:p-5 {
     padding: 1.25rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:pl-0 {

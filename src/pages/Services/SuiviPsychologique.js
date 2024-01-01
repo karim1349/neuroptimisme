@@ -1,7 +1,7 @@
 const SuiviPsychologique = () => {
     return (
         <div className="flex items-center bg-nude-50 flex-1 flex-col">
-            <div className="flex w-full flex-col items-center max-w-6xl pb-16">
+            <div className="flex w-11/12 sm:w-full flex-col items-center max-w-6xl pb-16">
                 <div className="flex items-center mt-20">
                     <img src="/assets/icons/psy.png" alt="logo" className=" w-16 h-16 object-contain" />
                     <h1 className="text-brown-50 text-3xl">Suivi Psychologique</h1>
