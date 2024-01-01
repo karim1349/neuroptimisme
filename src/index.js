@@ -5,12 +5,12 @@ import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import SuiviPsychologique from './pages/Home/SuiviPsychologique';
-import Psychoeducation from './pages/Home/Psychoeducation';
-import GuidanceParentale from './pages/Home/GuidanceParentale';
-import HabiliteSociale from './pages/Home/HabiliteSociale';
-import Bilan from './pages/Home/Bilan';
-import RemediationCognitive from './pages/Home/RemediationCognitive';
+import SuiviPsychologique from './pages/Services/SuiviPsychologique';
+import Psychoeducation from './pages/Services/Psychoeducation';
+import GuidanceParentale from './pages/Services/GuidanceParentale';
+import HabiliteSociale from './pages/Services/HabiliteSociale';
+import Bilan from './pages/Services/Bilan';
+import RemediationCognitive from './pages/Services/RemediationCognitive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
