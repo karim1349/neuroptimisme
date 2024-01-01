@@ -12,6 +12,7 @@ import HabiliteSociale from './pages/Services/HabiliteSociale';
 import Bilan from './pages/Services/Bilan';
 import RemediationCognitive from './pages/Services/RemediationCognitive';
 import Experiences from './pages/Connaitre/Experiences';
+import About from './pages/About/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
           <Route path="/bilan" element={<Bilan />} />
           <Route path="/remediation_cognitive" element={<RemediationCognitive />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/a_propos" element={<About />} />
         </Routes>
       </HashRouter>
       <Footer />
