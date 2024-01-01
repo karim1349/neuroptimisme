@@ -8,22 +8,25 @@ const Home = () => {
                 <div className="flex flex-col items-center">
                     <div className="relative flex w-screen flex-row justify-center bg-white">
                         <div className="flex flex-col flex-1 justify-center items-center">
-                            <Card3D>
-                                <img src="/assets/card.png" alt="card" className="w-full h-full object-cover" />
-                            </Card3D>
-                            <p className="text-4xl text-center">Neuropsychologue et psychologue à Mérignac</p>
+                            <div className="hidden sm:flex">
+                                <Card3D>
+                                    <img src="/assets/card.png" alt="card" className="w-full h-full object-cover" />
+                                </Card3D>
+                            </div>
+                            <p className=" hidden sm:block text-4xl text-center">Neuropsychologue et psychologue à Mérignac</p>
                         </div>
-                        <div class="relative w-96">
+                        <p className=" block sm:hidden text-xl self-center text-center">Neuropsychologue et psychologue à Mérignac</p>
+                        <div class="relative w-1/2 sm:w-96">
                             <img src="/assets/sophia.png" alt="sophia" class="h-full w-full object-cover self-end" />
-                            <div class="absolute inset-0 bg-gradient-to-l from-transparent to-nude-50 opacity-100"/>
+                            <div class="absolute inset-0 bg-gradient-to-l from-transparent to-nude-50 opacity-100 -left-1 -bottom-1"/>
                         </div>
                     </div>
-                    <div className="flex w-full flex-col items-center max-w-6xl pb-16">
+                    <div className="flex w-11/12 sm:w-full flex-col items-center max-w-6xl pb-16">
                         <h1 className=" mt-20 text-2xl font-medium">Mes <span className="text-brown-50">Services</span></h1>
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
                         <p>Je vous reçois dans mon cabinet, situé à Merignac pour plusieurs types de prise en charge. </p>
                         <div className="flex flex-col md:flex-row justify-between w-full mt-20">
-                            <div className="flex w-full flex-col items-center mx-16">
+                            <div className="flex w-full flex-col items-center sm:mx-16">
                                 <Link to="/suivi_psychologique" className=" cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
                                     <div className="flex">
                                         <img src="/assets/icons/psy.png" alt="psy" className=" w-14 h-14 object-contain mr-7" />
@@ -61,8 +64,8 @@ const Home = () => {
                                     </div>
                                 </Link>
                             </div>
-                            <div className="flex w-px bg-gray-300"/>
-                            <div className="flex w-full flex-col items-center mx-16">
+                            <div className="hidden sm:flex w-px bg-gray-300"/>
+                            <div className="flex w-full flex-col items-center sm:mx-16">
                                 <Link to="/psychoeducation" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
                                     <div className="flex">
                                         <img src="/assets/icons/amis.png" alt="amis" className=" w-14 h-14 object-contain mr-7" />
@@ -113,16 +116,16 @@ const Home = () => {
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
                         <div className="bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl flex flex-col items-center p-11">
                             <p className="text-center">Pour toute demande d'information ou pour prise de rendez-vous, n'hésitez pas à me retrouver sur <span>Doctolib</span>, <span>LinkedIn</span> et <span>Instagram</span>. À bientôt ! </p>
-                            <div className="flex items-center mt-8">
-                                <button className="group flex flex-col cursor-pointer items-center mx-11" onClick={() => window.open("https://www.instagram.com/neuroptimisme?utm_medium=copy_link", "_blank")}>
+                            <div className="flex flex-col sm:flex-row items-center mt-8">
+                                <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.instagram.com/neuroptimisme?utm_medium=copy_link", "_blank")}>
                                     <img src="/assets/icons/instagramFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
                                     <p className="group-hover:text-brown-50 mt-5 underline">@neuroptimisme</p>
                                 </button>
-                                <button className="group flex flex-col cursor-pointer items-center mx-11" onClick={() => window.open("https://www.doctolib.fr/psychologue/merignac/sophia-boukoulo", "_blank")}>
+                                <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.doctolib.fr/psychologue/merignac/sophia-boukoulo", "_blank")}>
                                     <img src="/assets/icons/doctolibFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
                                     <p className="group-hover:text-brown-50 mt-5 underline">Prendre RDV</p>
                                 </button>
-                                <button className="group flex flex-col cursor-pointer items-center mx-11" onClick={() => window.open("https://www.linkedin.com/in/sophia-boukoulo-385680192/", "_blank")}>
+                                <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.linkedin.com/in/sophia-boukoulo-385680192/", "_blank")}>
                                     <img src="/assets/icons/linkedinFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
                                     <p className="group-hover:text-brown-50 mt-5 underline">Sophia Boukoulo</p>
                                 </button>
