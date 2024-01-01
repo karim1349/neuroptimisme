@@ -11,6 +11,7 @@ import GuidanceParentale from './pages/Services/GuidanceParentale';
 import HabiliteSociale from './pages/Services/HabiliteSociale';
 import Bilan from './pages/Services/Bilan';
 import RemediationCognitive from './pages/Services/RemediationCognitive';
+import Experiences from './pages/Connaitre/Experiences';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
           <Route path="/habilite_sociale" element={<HabiliteSociale />} />
           <Route path="/bilan" element={<Bilan />} />
           <Route path="/remediation_cognitive" element={<RemediationCognitive />} />
+          <Route path="/experiences" element={<Experiences />} />
         </Routes>
       </HashRouter>
       <Footer />
