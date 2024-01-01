@@ -21,7 +21,7 @@ const Bilan = () => {
                     </p>
                 </div>
                 <img src="/assets/icons/fleche.svg" alt="fleche" className=" h-48 object-contain -mt-9 z-0 ml-28 self-start" />
-                <h1 className="text-5xl text-brown-50"><span className="font-extrabold">02.</span> {' '} Tests Neuropsychologiques et Psychométriques</h1>
+                <h1 className="text-4xl sm:text-5xl text-brown-50"><span className="font-extrabold">02.</span> {' '} Tests Neuropsychologiques et Psychométriques</h1>
                 <div className="flex flex-col items-center bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-8 z-50">
                     <p className="text-center mb-8">
                     Les tests neuropsychologiques et psychométriques sont des outils standardisés conçus pour mesurer des aspects spécifiques du fonctionnement mental, cognitif ou comportemental d'une personne. Ces tests sont généralement administrés dans un cadre contrôlé et suivent des normes strictes pour garantir leur validité et leur fiabilité. Les résultats obtenus permettent d’objectiver les difficultés, et de fournir un profil cognitif pouvant aider dans le cadre d’un diagnostic (pathologie neurodéveloppementale ou neurodégénérative par exemple).

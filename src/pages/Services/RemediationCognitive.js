@@ -15,9 +15,9 @@ const RemediationCognitive = () => {
                 </p>
                 <div className="flex mt-12">
                     <h2 className="text-brown-50 text-4xl">Il existe deux approches</h2>
-                    <img src="/assets/icons/fleche3.svg" alt="fleche" className=" h-40 object-contain mt-8" />
+                    <img src="/assets/icons/fleche3.svg" alt="fleche" className="hidden sm:block h-40 object-contain mt-8" />
                 </div>
-                <div className="flex items-center bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-8">
+                <div className="flex flex-col sm:flex-row items-center bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-8">
                     <img src="/assets/illustrations/rc1.png" alt="tcc" className=" w-80 object-contain" />
                     <div>
                         <h1 className="text-5xl text-center text-brown-50 mt-16"><span className="font-extrabold">01.</span> {' '} Stimulation Cognitive</h1>
@@ -32,7 +32,7 @@ const RemediationCognitive = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-center bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-8">
+                <div className="flex flex-col sm:flex-row items-center bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-8">
                     <div>
                         <h1 className="text-5xl text-center text-brown-50 mt-16"><span className="font-extrabold">02.</span> {' '} Stratégies</h1>
                         <p className="text-justify mt-12 mr-4">
