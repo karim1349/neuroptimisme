@@ -52,7 +52,7 @@ const Experiences = () => {
                 </div>
                 <div className="flex w-full items-center my-12">
                     <div className="h-px bg-brown-50 flex-1" />
-                    <h1 className="text-4xl italic text-brown-50 mx-16">Et maintenant ?</h1>
+                    <h1 className="text-4xl italic text-brown-50 mx-5 sm:mx-16">Et maintenant ?</h1>
                     <div className="h-px bg-brown-50 flex-1" />
                 </div>
                 <div className="flex w-11/12 sm:w-full flex-col items-center max-w-6xl pb-16">
