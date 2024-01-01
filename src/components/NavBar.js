@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <div className="bg-brown-25 flex justify-between transition-all duration-500 ease-in-out z-50">
-            <img src="/assets/logo.png" alt="logo" className="w-20 h-20 object-contain" />
+            <Link to="/"> <img src="/assets/logo.png" alt="logo" className="w-20 h-20 object-contain" /></Link>
             <div className="flex items-center">
                 <Link to="/"         className="cursor-pointer mr-11 transition-colors duration-200 ease-in-out hover:text-brown-50 z-50">Accueil</Link>
                 <div className="group flex justify-center cursor-pointer mr-11 transition-colors duration-200 ease-in-out hover:text-brown-50">
@@ -15,7 +15,7 @@ const NavBar = () => {
                                 <Link to="/experiences" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
                                     <p className=' text-sm'>Expériences professionnelles</p>
                                 </Link>
-                                <Link to="/psychoeducation" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                <Link to="/parcours" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
                                     <p className=' text-sm'>Mon parcours</p>
                                 </Link>
                             </div>
