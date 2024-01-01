@@ -14,6 +14,7 @@ import RemediationCognitive from './pages/Services/RemediationCognitive';
 import Experiences from './pages/Connaitre/Experiences';
 import About from './pages/About/About';
 import Parcours from './pages/Connaitre/Parcours';
+import Tarifs from './pages/Tarifs/Tarifs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +34,7 @@ root.render(
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/parcours" element={<Parcours />} />
             <Route path="/a_propos" element={<About />} />
+            <Route path="/tarifs" element={<Tarifs />} />
           </Routes>
         <Footer />
       </HashRouter>
