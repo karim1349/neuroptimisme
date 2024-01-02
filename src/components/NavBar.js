@@ -25,6 +25,9 @@ const NavBar = () => {
                     <div className="sm:absolute hidden group-hover:block delay-100">
                         <div className="sm:flex sm:bg-white sm:mt-9 rounded-md sm:p-5 text-black">
                             <div>
+                                <Link to="/qui_suis_je" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <p className=' text-sm'>Qui suis-je ?</p>
+                                </Link>
                                 <Link to="/experiences" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
                                     <p className=' text-sm'>Expériences professionnelles</p>
                                 </Link>
