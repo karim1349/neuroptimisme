@@ -12,7 +12,7 @@ const Me = () => {
                             Passionnée par les neurosciences et la santé mentale, j’étudie les liens entre le fonctionnement cognitif, émotionnel et intellectuel. Originaire d'une petite ville charmante des Pays de la Loire, mon parcours m'a conduit à Paris, où j'ai poursuivi mes études au sein d'une université renommée. 
                             <br/>
                             <br/>
-                            Forte d'une solide formation et d'une expérience diversifiée, je me suis établi à Bordeaux, prêt à mettre mes compétences au service de votre bien-être. Mon approche professionnelle repose sur l'empathie, la compréhension et la collaboration. Je m'engage à fournir un soutien personnalisé, que ce soit dans l'évaluation neuropsychologique, la rééducation, le suivi psychologique ou la psychothérapie.
+                            Forte d'une solide formation et d'une expérience diversifiée, je me suis établi à Bordeaux, prête à mettre mes compétences au service de votre bien-être. Mon approche professionnelle repose sur l'empathie, la compréhension et la collaboration. Je m'engage à fournir un soutien personnalisé, que ce soit dans l'évaluation neuropsychologique, la rééducation, le suivi psychologique ou la psychothérapie.
                             <br/>
                             <br/>
                             Sur ce site, vous trouverez des informations détaillées sur mes services, ma méthodologie, mon parcours, ainsi que des ressources utiles. Mon objectif est de vous accompagner vers une meilleure compréhension de vous-même, en vous offrant des outils pour surmonter les défis émotionnels et améliorer votre qualité de vie.
