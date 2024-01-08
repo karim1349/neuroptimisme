@@ -115,21 +115,27 @@ const Home = () => {
                         <h1 className=" mt-20 text-2xl font-medium">Comment me <span className="text-brown-50">contacter</span> ?</h1>
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
                         <div className="bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl flex flex-col items-center p-11">
-                            <p className="text-center">Pour toute demande d'information ou pour prise de rendez-vous, n'hésitez pas à me retrouver sur <span>Doctolib</span>, <span>LinkedIn</span> et <span>Instagram</span>. À bientôt ! </p>
+                            <p className="text-center">Pour toute demande d'information ou pour prise de rendez-vous, n'hésitez pas à me retrouver sur <span>Doctolib</span>, <span>LinkedIn</span> et <span>Instagram</span>. Vous pouvez aussi m'envoyer un mail à l'adresse contact@neuroptimisme.fr, et trouver mon cabinet à l'adresse postale suivante. À bientôt ! </p>
                             <div className="flex flex-col sm:flex-row items-center mt-8">
-                                <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.instagram.com/neuroptimisme?utm_medium=copy_link", "_blank")}>
-                                    <img src="/assets/icons/instagramFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
-                                    <p className="group-hover:text-brown-50 mt-5 underline">@neuroptimisme</p>
-                                </button>
                                 <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.doctolib.fr/psychologue/merignac/sophia-boukoulo", "_blank")}>
                                     <img src="/assets/icons/doctolibFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
                                     <p className="group-hover:text-brown-50 mt-5 underline">Prendre RDV</p>
                                 </button>
                                 <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.linkedin.com/in/sophia-boukoulo-385680192/", "_blank")}>
-                                    <img src="/assets/icons/linkedinFill.png" alt="doctolib" className=" w-16 h-16 object-contain" />
+                                    <img src="/assets/icons/linkedinFill.png" alt="linkedin" className=" w-16 h-16 object-contain" />
                                     <p className="group-hover:text-brown-50 mt-5 underline">Sophia Boukoulo</p>
                                 </button>
+                                <button className="group flex flex-col cursor-pointer items-center mx-11 my-8 sm:my-0" onClick={() => window.open("https://www.instagram.com/neuroptimisme?utm_medium=copy_link", "_blank")}>
+                                    <img src="/assets/icons/instagramFill.png" alt="instagram" className=" w-16 h-16 object-contain" />
+                                    <p className="group-hover:text-brown-50 mt-5 underline">@neuroptimisme</p>
+                                </button>
                             </div>
+
+                            <p className="mt-8 text-center"> Adresse du cabinet : 
+                            <br/>Espace médical du Truc
+                            <br/>74 Avenue du Truc, Entrée A
+                            <br/>33700 Mérignac
+                            </p>
                         </div>
                     </div>
                 </div>
