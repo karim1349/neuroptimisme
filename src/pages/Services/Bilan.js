@@ -8,7 +8,7 @@ const Bilan = () => {
                 </div>
                 <div className="w-5/6 h-px bg-brown-50 my-8" />
                 <p className="text-center">
-                    Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il comprend des tests et des questionnaires visant à d’une personne. Il peut comprendre des tests et des questionnaires.
+                    Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il peut comprendre des tests et des questionnaires.
                     <br/>
                     <br/>
                     Le bilan neuropsychologique comprend trois grandes étapes : 
