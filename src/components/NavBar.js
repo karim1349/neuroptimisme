@@ -57,6 +57,10 @@ const NavBar = () => {
                                     <img src="/assets/icons/cerveau.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
                                     <p className=' text-sm'>Remédiation Cognitive</p>
                                 </Link>
+                                <Link to="/neurofeedback" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/cerveau2.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Neurofeedback</p>
+                                </Link>
                             </div>
                             <div>
                                 <Link to="/habilite_sociale" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">

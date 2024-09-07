@@ -16,6 +16,7 @@ import About from './pages/About/About';
 import Parcours from './pages/Connaitre/Parcours';
 import Tarifs from './pages/Tarifs/Tarifs';
 import Me from './pages/Connaitre/Me';
+import Neurofeedback from './pages/Services/Neurofeedback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
             <Route path="/habilite_sociale" element={<HabiliteSociale />} />
             <Route path="/bilan" element={<Bilan />} />
             <Route path="/remediation_cognitive" element={<RemediationCognitive />} />
+            <Route path="/neurofeedback" element={<Neurofeedback />} />
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/parcours" element={<Parcours />} />
             <Route path="/qui_suis_je" element={<Me />} />
