@@ -45,6 +45,28 @@ const NavBar = () => {
                     <div className="sm:absolute hidden group-hover:block">
                         <div className="sm:flex sm:bg-white sm:mt-9 rounded-md sm:p-5 text-black">
                             <div>
+                                <Link to="/bilan" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/liste.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Bilan neuropsychologique</p>
+                                </Link>
+                                <Link to="/neurofeedback" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/cerveau2.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Neurofeedback</p>
+                                </Link>
+                                <Link to="/remediation_cognitive" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/cerveau.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Remédiation Cognitive</p>
+                                </Link>
+                                <Link to="/habilite_sociale" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/conversation.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Habilité Sociale</p>
+                                </Link>
+                            </div>
+                            <div>
+                                <Link to="/guidance_parentale" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
+                                    <img src="/assets/icons/famille.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
+                                    <p className=' text-sm'>Guidance Parentale</p>
+                                </Link>
                                 <Link to="/suivi_psychologique" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
                                     <img src="/assets/icons/psy.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
                                     <p className=' text-sm'>Suivi Psychologique</p>
@@ -52,28 +74,6 @@ const NavBar = () => {
                                 <Link to="/psychoeducation" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
                                     <img src="/assets/icons/amis.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
                                     <p className=' text-sm'>Psychoéducation</p>
-                                </Link>
-                                <Link to="/remediation_cognitive" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
-                                    <img src="/assets/icons/cerveau.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
-                                    <p className=' text-sm'>Remédiation Cognitive</p>
-                                </Link>
-                                <Link to="/neurofeedback" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
-                                    <img src="/assets/icons/cerveau2.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
-                                    <p className=' text-sm'>Neurofeedback</p>
-                                </Link>
-                            </div>
-                            <div>
-                                <Link to="/habilite_sociale" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
-                                    <img src="/assets/icons/conversation.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
-                                    <p className=' text-sm'>Habilité Sociale</p>
-                                </Link>
-                                <Link to="/bilan" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
-                                    <img src="/assets/icons/liste.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
-                                    <p className=' text-sm'>Bilan</p>
-                                </Link>
-                                <Link to="/guidance_parentale" className="flex px-4 py-2 hover:bg-nude-50 hover:text-brown-50 items-center rounded-md">
-                                    <img src="/assets/icons/famille.png" alt="logo" className="w-4 h-4 object-contain mr-3" />
-                                    <p className=' text-sm'>Guidance Parentale</p>
                                 </Link>
                             </div>
                         </div>
