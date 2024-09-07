@@ -13,9 +13,9 @@ const Home = () => {
                                     <img src="/assets/card.png" alt="card" className="w-full h-full object-cover" />
                                 </Card3D>
                             </div>
-                            <p className=" hidden sm:block text-4xl text-center">Neuropsychologue et psychologue à Mérignac</p>
+                            <p className=" hidden sm:block text-4xl text-center">Neuropsychologue - Psychologue - Neurofeedback à Mérignac </p>
                         </div>
-                        <p className=" block sm:hidden text-xl self-center text-center">Neuropsychologue et psychologue à Mérignac</p>
+                        <p className=" block sm:hidden text-xl self-center text-center">Neuropsychologue - Psychologue - Neurofeedback à Mérignac </p>
                         <div class="relative w-1/2 sm:w-96">
                             <img src="/assets/sophia.png" alt="sophia" class="h-full w-full object-cover self-end" />
                             <div class="absolute inset-0 bg-gradient-to-l from-transparent to-nude-50 opacity-100 -left-1 -bottom-1"/>
@@ -27,12 +27,51 @@ const Home = () => {
                         <p>Je vous reçois dans mon cabinet, situé à Merignac pour plusieurs types de prise en charge. </p>
                         <div className="flex flex-col md:flex-row justify-between w-full mt-20">
                             <div className="flex w-full flex-col items-center sm:mx-16">
-                                <Link to="/suivi_psychologique" className=" cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
+                                <Link to="/bilan" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
                                     <div className="flex">
-                                        <img src="/assets/icons/psy.png" alt="psy" className=" w-14 h-14 object-contain mr-7" />
+                                        <img src="/assets/icons/liste.png" alt="liste" className=" w-14 h-14 object-contain mr-7" />
                                         <div className="flex flex-col">
-                                            <p className="text-brown-50 text-xl mb-2">Suivi Psychologique</p>
-                                            <p>Je réalise du suivi psychologique en psychothérapie de soutien. Mon approche se veut intégrative avec des outils issus de plusieurs psychothérapies reconnues (TCC, ACT, ICV, thérapie des schémas)</p>
+                                            <p className="text-brown-50 text-xl mb-2">Bilan neuropsychologique</p>
+                                            <p>Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il comprend des tests et des questionnaires visant à d’une personne. Il peut comprendre des tests et des questionnaires. </p>
+                                            <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
+                                                <span className="group-hover:text-white">En savoir plus</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </Link>
+                                <Link to="/neurofeedback" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
+                                    <div className="flex">
+                                        <img src="/assets/icons/cerveau2.png" alt="cerveau" className=" w-14 h-14 object-contain mr-7" />
+                                        <div className="flex flex-col">
+                                            <p className="text-brown-50 text-xl mb-2">Neurofeedback</p>
+                                            <p>Le Neurofeedback EEGq (NFB) et Biofeedback est une approche thérapeutique combinée qui utilise des capteurs pour mesurer l'activité cérébrale et les fonctions physiologiques. En recevant des feedbacks en temps réel, le patient apprend à réguler son esprit et son corps, favorisant ainsi un meilleur équilibre mental et physique pour traiter des troubles tels que l'anxiété, la dépression, et les douleurs chroniques.</p>
+                                            <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
+                                                <span className="group-hover:text-white">En savoir plus</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </Link>
+                                
+                                <Link to="/remediation_cognitive" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
+                                    <div className="flex">
+                                        <img src="/assets/icons/cerveau.png" alt="cerveau" className=" w-14 h-14 object-contain mr-7" />
+                                        <div className="flex flex-col">
+                                            <p className="text-brown-50 text-xl mb-2">Remédiation Cognitive</p>
+                                            <p>La remédiation cognitive est une approche thérapeutique visant à améliorer ou restaurer les fonctions cognitives chez les personnes souffrant de troubles mentaux. Elle se concentre sur le développement ou la réhabilitation des compétences cognitives telles que la mémoire, l'attention, le raisonnement, la planification, et d'autres fonctions mentales altérées.</p>
+                                            <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
+                                                <span className="group-hover:text-white">En savoir plus</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="hidden sm:flex w-px bg-gray-300"/>
+                            <div className="flex w-full flex-col items-center sm:mx-16"><Link to="/habilite_sociale" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
+                                    <div className="flex">
+                                        <img src="/assets/icons/conversation.png" alt="conversation" className=" w-14 h-14 object-contain mr-7" />
+                                        <div className="flex flex-col">
+                                            <p className="text-brown-50 text-xl mb-2">Habiletés Sociales</p>
+                                            <p>Le travail sur les habiletés sociales fait référence aux interventions visant à développer et améliorer les compétences relationnelles et interpersonnelles d'une personne. </p>
                                             <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
                                                 <span className="group-hover:text-white">En savoir plus</span>
                                             </button>
@@ -51,21 +90,6 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/remediation_cognitive" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
-                                    <div className="flex">
-                                        <img src="/assets/icons/cerveau.png" alt="cerveau" className=" w-14 h-14 object-contain mr-7" />
-                                        <div className="flex flex-col">
-                                            <p className="text-brown-50 text-xl mb-2">Remédiation Cognitive</p>
-                                            <p>La remédiation cognitive est une approche thérapeutique visant à améliorer ou restaurer les fonctions cognitives chez les personnes souffrant de troubles mentaux. Elle se concentre sur le développement ou la réhabilitation des compétences cognitives telles que la mémoire, l'attention, le raisonnement, la planification, et d'autres fonctions mentales altérées.</p>
-                                            <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
-                                                <span className="group-hover:text-white">En savoir plus</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </Link>
-                            </div>
-                            <div className="hidden sm:flex w-px bg-gray-300"/>
-                            <div className="flex w-full flex-col items-center sm:mx-16">
                                 <Link to="/psychoeducation" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
                                     <div className="flex">
                                         <img src="/assets/icons/amis.png" alt="amis" className=" w-14 h-14 object-contain mr-7" />
@@ -78,24 +102,12 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/habilite_sociale" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
+                                <Link to="/suivi_psychologique" className=" cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
                                     <div className="flex">
-                                        <img src="/assets/icons/conversation.png" alt="conversation" className=" w-14 h-14 object-contain mr-7" />
+                                        <img src="/assets/icons/psy.png" alt="psy" className=" w-14 h-14 object-contain mr-7" />
                                         <div className="flex flex-col">
-                                            <p className="text-brown-50 text-xl mb-2">Habilité Sociale</p>
-                                            <p>Le travail sur les habiletés sociales fait référence aux interventions visant à développer et améliorer les compétences relationnelles et interpersonnelles d'une personne. </p>
-                                            <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
-                                                <span className="group-hover:text-white">En savoir plus</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="/bilan" className="cursor-pointer group bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl p-8 my-5">
-                                    <div className="flex">
-                                        <img src="/assets/icons/liste.png" alt="liste" className=" w-14 h-14 object-contain mr-7" />
-                                        <div className="flex flex-col">
-                                            <p className="text-brown-50 text-xl mb-2">Bilan</p>
-                                            <p>Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il comprend des tests et des questionnaires visant à d’une personne. Il peut comprendre des tests et des questionnaires. </p>
+                                            <p className="text-brown-50 text-xl mb-2">Suivi Psychologique</p>
+                                            <p>Je réalise du suivi psychologique en psychothérapie de soutien. Mon approche se veut intégrative avec des outils issus de plusieurs psychothérapies reconnues (TCC, ACT, ICV, thérapie des schémas)</p>
                                             <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
                                                 <span className="group-hover:text-white">En savoir plus</span>
                                             </button>

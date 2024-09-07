@@ -4,7 +4,7 @@ const HabiliteSociale = () => {
             <div className="flex w-11/12 sm:w-full flex-col items-center max-w-6xl pb-16">
                 <div className="flex items-center mt-20">
                     <img src="/assets/icons/conversation.png" alt="logo" className=" w-16 h-16 object-contain" />
-                    <h1 className="text-brown-50 text-3xl">Habilité Sociale</h1>
+                    <h1 className="text-brown-50 text-3xl">Habiletés Sociales</h1>
                 </div>
                 <div className="w-5/6 h-px bg-brown-50 my-8" />
                 <p className="text-center">Le travail sur les habiletés sociales fait référence aux interventions visant à développer et améliorer les compétences relationnelles et interpersonnelles d'une personne. </p>

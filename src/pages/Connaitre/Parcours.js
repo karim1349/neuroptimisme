@@ -18,6 +18,9 @@ const Parcours = () => {
                             De retour en France, j'ai persévéré pour intégrer le prestigieux master de neuropsychologie à l'université Paris Descartes, décrochant mon diplôme de psychologue spécialisée en neuropsychologie avec mention en 2022. Forte de cette expertise, je poursuis activement ma formation en participant à des conférences et des formations axées sur les troubles neurodéveloppementaux tels que l'autisme et le TDAH, ainsi que sur les dernières avancées neuropsychologiques émanant de la recherche.
                             <br/>
                             <br/>
+                            Plus récemment, j’ai suivi une formation d’un an en 2023 sur le Neurofeedback EEGq et le Biofeedback afin de proposer des techniques innovantes et prometteuses. 
+                            <br/>
+                            <br/>
                             Mon engagement envers la formation continue reflète ma volonté de rester à la pointe des connaissances, garantissant ainsi à mes patients un accompagnement informé par les dernières découvertes scientifiques. Mon objectif est d'offrir des services de qualité, imprégnés des avancées les plus récentes, pour répondre au mieux aux besoins de ceux que j'accompagne.
                         </p>
                         <img src="/assets/illustrations/parcours2.png" alt="univ" className="w-64 object-contain sm:ml-16" />

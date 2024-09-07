@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="flex flex-col items-center bg-brown-25">
-            <Link to="/"><img src="/assets/logo.png" alt="logo" className="w-20 h-20 object-contain" /></Link>
+            <Link to="/"><img src="/assets/logo2.png" alt="logo2" className="w-32 h-32 object-contain" /></Link>
             <div className="flex items-center my-8">
                 <button className="mx-2.5" onClick={() => window.open("https://www.doctolib.fr/psychologue/merignac/sophia-boukoulo", "_blank")}>
                     <img src="/assets/icons/doctolib.png" alt="doctolib" className=" w-11 h-11 object-contain" />
