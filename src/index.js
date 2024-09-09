@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -19,11 +19,26 @@ import Me from './pages/Connaitre/Me';
 import Neurofeedback from './pages/Services/Neurofeedback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
+export default ScrollToTop;
+
+
 root.render(
   <React.StrictMode>
     <>
       <HashRouter>
         <NavBar />
+        <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
