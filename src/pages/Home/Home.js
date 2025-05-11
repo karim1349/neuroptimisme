@@ -22,6 +22,24 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="flex w-11/12 sm:w-full flex-col items-center max-w-6xl pb-16">
+
+                        <h1 className=" mt-20 text-2xl font-medium">Mon <span className="text-brown-50">e-book</span> sur le TDAH</h1>
+                        <div className="w-5/6 h-px bg-brown-50 my-8" />
+                        <div className="bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl flex flex-col md:flex-row items-center p-8">
+                            <div className="md:w-1/3 flex justify-center mb-6 md:mb-0">
+                                <img src="/assets/cover_ebook_tdah.avif" alt="E-book TDAH" className="w-64 h-auto object-contain rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105" />
+                            </div>
+                            <div className="md:w-2/3 md:pl-8 flex flex-col justify-center items-center md:items-start">
+                                <h2 className="text-xl text-brown-50 font-medium mb-4 text-center md:text-left">Comprendre et gérer le TDAH au quotidien</h2>
+                                <p className="text-center md:text-left mb-6">Et si vous compreniez enfin le TDAH de votre enfant pour mieux l’accompagner au quotidien ? Découvrez un e-book clair, pratique et pensé pour les parents mais aussi pour les professionnels qui débutent ! </p>
+                                <a target="_blank" rel="noopener noreferrer" href="https://payhip.com/b/nQ2NX" className="self-center md:self-start bg-brown-50 text-white px-6 py-3 rounded-md font-medium transform transition-all duration-300 hover:bg-brown-25 hover:scale-105 flex items-center">
+                                    <span className="mr-2">Je le veux !</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                         <h1 className=" mt-20 text-2xl font-medium">Mes <span className="text-brown-50">Services</span></h1>
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
                         <p>Je vous reçois dans mon cabinet, situé à Merignac pour plusieurs types de prise en charge. </p>
@@ -32,7 +50,7 @@ const Home = () => {
                                         <img src="/assets/icons/liste.png" alt="liste" className=" w-14 h-14 object-contain mr-7" />
                                         <div className="flex flex-col">
                                             <p className="text-brown-50 text-xl mb-2">Bilan neuropsychologique</p>
-                                            <p>Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il comprend des tests et des questionnaires visant à d’une personne. Il peut comprendre des tests et des questionnaires. </p>
+                                            <p>Un bilan neuropsychologique est une évaluation clinique des fonctions cognitives, émotionnelles et comportementales d'une personne. Il comprend des tests et des questionnaires visant à d'une personne. Il peut comprendre des tests et des questionnaires. </p>
                                             <button className="self-end bg-brown-25 px-4 py-1 rounded-md mt-4 group-hover:bg-brown-50 transform transition-all duration-300 hover:scale-105">
                                                 <span className="group-hover:text-white">En savoir plus</span>
                                             </button>
@@ -122,7 +140,7 @@ const Home = () => {
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
                         <div className="bg-white w-full shadow-[0px_0px_10px_1px_#ECECEC] rounded-xl flex flex-col items-center p-11">
                             <img src="/assets/illustrations/room.png" alt="cabinet" className=" w-64 object-contain rounded-xl" />
-                            <p className="text-center mt-8">Mon cabinet Neuroptimisme vous offre une vision de la psychologie et de la neuropsychologie qui se veut optimiste. Je vous accompagne pour atteindre l’autonomie et le développement des compétences pour faire face aux difficultés. J’offre un soutien professionnel pour aider les individus à surmonter les obstacles émotionnels et à améliorer leur bien-être mental, contribuant ainsi à l'amélioration de la qualité de vie des personnes confrontées à des défis cognitifs ou émotionnels.</p>
+                            <p className="text-center mt-8">Mon cabinet Neuroptimisme vous offre une vision de la psychologie et de la neuropsychologie qui se veut optimiste. Je vous accompagne pour atteindre l'autonomie et le développement des compétences pour faire face aux difficultés. J'offre un soutien professionnel pour aider les individus à surmonter les obstacles émotionnels et à améliorer leur bien-être mental, contribuant ainsi à l'amélioration de la qualité de vie des personnes confrontées à des défis cognitifs ou émotionnels.</p>
                         </div>
                         <h1 className=" mt-20 text-2xl font-medium">Comment me <span className="text-brown-50">contacter</span> ?</h1>
                         <div className="w-5/6 h-px bg-brown-50 my-8" />
